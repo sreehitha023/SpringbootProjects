@@ -91,7 +91,7 @@ class UserServiceImplTest {
     }
 
     @Test
-    void getByVendorName() {
+    void getByUserName() {
         mock(User.class);
         mock(UserRepository.class);
 
